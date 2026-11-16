@@ -1,0 +1,5 @@
+.sangue-escuro .bsa-fabricacao { min-width: 0; }
+.sangue-escuro .bsa-fabricacao .actor-tab { max-width: 100%; }
+.sangue-escuro .bsa-fabricacao .actor-tab > .flexcol { min-width: 0 !important; }
+.sangue-escuro .bsa-item-editor { display: block; overflow: auto; flex: 1; min-height: 0; }
+.sangue-escuro .bsa-item-editor > .beavers-crafting { box-sizing: border-box; }

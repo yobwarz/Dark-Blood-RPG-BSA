@@ -1,0 +1,57 @@
+{
+  "id": "bsa-sangue-escuro",
+  "title": "BSA — Sangue Escuro",
+  "description": "Adaptador do Sangue Escuro para Beaver's System Interface e Beaver's Crafting.",
+  "version": "0.1.4",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Yob Warz"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/adapter.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "sangue-escuro",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.7.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "beavers-system-interface",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.3.4",
+          "maximum": "2.3.5"
+        },
+        "manifest": "https://github.com/AngryBeaver/beavers-system-interface/releases/latest/download/module.json"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "beavers-crafting",
+        "type": "module",
+        "compatibility": {
+          "minimum": "4.7.1",
+          "maximum": "4.7.1"
+        },
+        "manifest": "https://github.com/AngryBeaver/beavers-crafting/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "https://github.com/yobwarz/Dark-Blood-RPG-BSA",
+  "manifest": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-BSA/main/module.json",
+  "download": "https://raw.githubusercontent.com/yobwarz/Dark-Blood-RPG-BSA/v0.1.4/dist/bsa-sangue-escuro.zip"
+}

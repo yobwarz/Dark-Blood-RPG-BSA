@@ -1,0 +1,13 @@
+{{#if ferramentaFisica}}
+<section class="se-painel">
+  <h3>Ferramenta de fabricação</h3>
+  <label>Perícia utilizada
+    <select name="flags.bsa-sangue-escuro.periciaFerramenta">
+      <option value="">Não configurada</option>
+      {{selectOptions periciasBsa selected=periciaFerramenta}}
+    </select>
+  </label>
+  <p class="se-dica">Para testes de ferramenta, utiliza a perícia escolhida e exige o item no inventário. Nas receitas, adicione também a ferramenta como requisito para mantê-la durante todo o processo.</p>
+</section>
+
+{{/if}}

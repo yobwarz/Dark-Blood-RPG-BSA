@@ -33,7 +33,7 @@ Após o recarregamento, o módulo estará ativo. Confira os requisitos de compat
 > **Requisitos:** Foundry VTT 13+ e Beaver’s System Interface e Beaver’s Crafting
 >
 ### Créditos
-**Módulos Oficial Beaver’s System Interface e Beaver’s Crafting:** [AngryBeaver](https://foundryvtt.com/community/angry3eaver)
+**Módulos Oficial Beaver’s System Interface e Beaver’s Crafting:** [AngryBeaver](https://github.com/AngryBeaver)
 
 **Tradução:** Português (PT-BR) por [Andersants](https://github.com/Andersants)
 >
